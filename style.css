@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+/*comentarios*/
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+
+}
+body{
+    background: rgb(87, 85, 85);
+    font-family: 'Kanit', sans-serif;
+    font-size: 1em;
+}
+.ctn{
+    margin: 0 auto;
+
+}
+/* ========= SMARTPHONE PORTRAIT ========== */
+
+
+/* ========= SMARTPHONE  LANDSCAPE ========== */
+@media (min-width: 576px){
+    body{
+        background: rgb(57, 2, 119);
+    }
+    .ctn{
+        max-width: 540px;
+    }
+}
+
+/* ========= TABLET PORTRAIT ========== */
+@media (min-width: 768px){
+    body{
+        background: rgb(2, 119, 37);
+    }
+    .ctn{
+        max-width: 720px;
+    }
+}
+
+/* ========= SMARTPHONE LANDSCAPE ========== */
+@media (min-width: 992px){
+    body{
+        background: rgb(185, 9, 3);
+    }
+    .ctn{
+        max-width: 960px;
+    }
+}
+
+
+/* ================= PC ============== */
+@media (min-width: 1200px){
+    body{
+        background: rgb(185, 158, 3);
+    }
+    .ctn{
+        max-width: 1140px;
+    }
+}
