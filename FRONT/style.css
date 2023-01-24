@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+/*comentarios*/
+
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+
+}
+body{
+    background: rgb(39, 38, 38);
+}
+
+/* ========= SMARTPHONE PORTRAIT ========== */
+
+
+/* ========= SMARTPHONE  LANDSCAPE ========== */
+@media (min-width: 576px){
+    body{
+        background: rgb(57, 2, 119);
+    }
+}
+
+/* ========= TABLET PORTRAIT ========== */
+@media (min-width: 768px){
+    body{
+        background: rgb(2, 119, 37);
+    }
+}
+
+/* ========= SMARTPHONE LANDSCAPE ========== */
+@media (min-width: 992px){
+    body{
+        background: rgb(185, 9, 3);
+    }
+}
+
+
+/* ================= PC ============== */
+@media (min-width: 1200px){
+    body{
+        background: rgb(185, 158, 3);
+    }
+}
